@@ -100,7 +100,7 @@
               <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#projects">Work & Projects</a>
+              <a class="nav-link" href="#projects">Work & Class Schedule</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#signup">Contact</a>
@@ -255,8 +255,9 @@
           <div class="col-lg-6">
             <img
               class="img-fluid"
-              src="assets/img/demo-image-02.jpg"
-              alt="Snowy mountains"
+              src="images/bmo.jpg"
+              alt="BMO Tower Chicago"
+              style="height: 100%; max-height: 450px; width: 100%; object-fit: cover;"
             />
           </div>
           <div class="col-lg-6 order-lg-first">
@@ -265,10 +266,9 @@
                 <div
                   class="project-text w-100 my-auto text-center text-lg-right"
                 >
-                  <h3 class="text-white">Mountains</h3>
+                  <h3 class="text-white">Credit Analyst Commercial Bank--Bank of Montreal</h3>
                   <p class="mb-0 text-white-50">
-                    Another example of a project with a description. These
-                    sections work responsively too!
+                    During my time at BMO, I conducted in-depth reviews of multiple Confidential Information Memorandums (CIMs) to identify potential risk factors, including market concentration, industry cyclicality, future outlooks, and historical financial performance. I completed an annual credit review of a construction company by updating key performance metrics and presenting a slide deck to managers, where I answered questions on the company’s background and risk profile. Additionally, I gained insight into the credit decision-making process by shadowing calls with the credit team, where we evaluated potential business downsides and discussed whether to extend debt financing to companies within the Engineering & Construction sector.
                   </p>
                 </div>
               </div>
@@ -279,85 +279,22 @@
     </section>
 
     <!-- Signup Section -->
-    <section class="signup-section" id="signup">
-      <div class="container px-4 px-lg-5">
-        <div class="row gx-4 gx-lg-5">
-          <div class="col-md-10 col-lg-8 mx-auto text-center">
-            <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-            <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
-            <form
-              class="form-signup"
-              id="contactForm"
-              data-sb-form-api-token="API_TOKEN"
-            >
-              <div class="row input-group-newsletter">
-                <div class="col">
-                  <input
-                    class="form-control"
-                    id="emailAddress"
-                    type="email"
-                    placeholder="Enter email address..."
-                    aria-label="Enter your email address"
-                    data-sb-validations="required,email"
-                  />
-                </div>
-                <div class="col-auto">
-                  <button
-                    class="btn btn-primary disabled"
-                    id="submitButton"
-                    type="submit"
-                  >
-                    Notify Me!
-                  </button>
-                </div>
-              </div>
-              <div
-                class="invalid-feedback mt-2"
-                data-sb-feedback="emailAddress:required"
-              >
-                An email is required.
-              </div>
-              <div
-                class="invalid-feedback mt-2"
-                data-sb-feedback="emailAddress:email"
-              >
-                Email is not valid.
-              </div>
-              <div class="d-none" id="submitSuccessMessage">
-                <div class="text-center mb-3 mt-2 text-white">
-                  <div class="fw-bolder">Form submission successful!</div>
-                  Activate this form at <br />
-                  <a
-                    href="https://startbootstrap.com/solution/contact-forms"
-                    target="_blank"
-                    rel="noopener"
-                    >StartBootstrap Forms</a
-                  >
-                </div>
-              </div>
-              <div class="d-none" id="submitErrorMessage">
-                <div class="text-center text-danger mb-3 mt-2">
-                  Error sending message!
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
+    
 
     <!-- Contact Section -->
-    <section class="contact-section bg-black">
+    <section class="contact-section bg-black" id="signup">
       <div class="container px-4 px-lg-5">
         <div class="row gx-4 gx-lg-5">
           <div class="col-md-4 mb-3 mb-md-0">
             <div class="card py-4 h-100">
               <div class="card-body text-center">
-                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                <h3 class="text-uppercase m-0">Address</h3>
+                <i class="fab fa-linkedin text-primary mb-2"></i>
+                <h3 class="text-uppercase m-0">LinkedIn</h3>
                 <hr class="my-4 mx-auto" />
                 <div class="small text-black-50">
-                  4923 Market Street, Orlando FL
+                  <a href="https://www.linkedin.com/in/frank-metcalf/"
+                    >linkedin.com/in/frankmetcalf</a
+                  >
                 </div>
               </div>
             </div>
@@ -369,7 +306,7 @@
                 <h3 class="text-uppercase m-0">Email</h3>
                 <hr class="my-4 mx-auto" />
                 <div class="small text-black-50">
-                  <a href="mailto:hello@yourdomain.com">hello@yourdomain.com</a>
+                  <a href="mailto:hello@yourdomain.com">fmmetcalf@uiowa.edu</a>
                 </div>
               </div>
             </div>
@@ -377,29 +314,19 @@
           <div class="col-md-4 mb-3 mb-md-0">
             <div class="card py-4 h-100">
               <div class="card-body text-center">
-                <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                <h3 class="text-uppercase m-0">Phone</h3>
+                <i class="fas fa-file-alt text-primary mb-2"></i>
+                <h3 class="text-uppercase m-0">Resume</h3>
                 <hr class="my-4 mx-auto" />
-                <div class="small text-black-50">+1 (555) 902-8832</div>
+                <div class="small text-black-50">
+                  <a href="file:///C:/Users/Frank%20Metcalf/Documents/Resumes/Frank%20Metcalf%20Resume%20FSB%20FINAL.pdf"
+                    >Resume</a>
+                </div>
               </div>
             </div>
           </div>
         </div>
 
-        <!-- Social Icons -->
-        <div class="social d-flex justify-content-center mt-4">
-          <a class="mx-2" href="#" aria-label="Twitter"
-            ><i class="fab fa-twitter"></i
-          ></a>
-          <a class="mx-2" href="#" aria-label="Facebook"
-            ><i class="fab fa-facebook-f"></i
-          ></a>
-          <a class="mx-2" href="#" aria-label="GitHub"
-            ><i class="fab fa-github"></i
-          ></a>
-        </div>
-      </div>
-    </section>
+        
 
     <div id="cookie-popup">
       <p>
