@@ -2972,7 +2972,7 @@ fieldset:disabled .btn {
 }
 
 .btn-primary {
-  --bs-btn-color: #fff;
+  --bs-btn-color: black;
   --bs-btn-bg: #64a19d;
   --bs-btn-border-color: #64a19d;
   --bs-btn-hover-color: #fff;
@@ -3939,9 +3939,9 @@ fieldset:disabled .btn {
 .navbar {
   --bs-navbar-padding-x: 0;
   --bs-navbar-padding-y: 0.5rem;
-  --bs-navbar-color: rgba(0, 0, 0, 0.55);
+  --bs-navbar-color: gold;
   --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
-  --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
+  --bs-navbar-disabled-color: gold;
   --bs-navbar-active-color: rgba(0, 0, 0, 0.9);
   --bs-navbar-brand-padding-y: 0.3125rem;
   --bs-navbar-brand-margin-end: 1rem;
@@ -3981,7 +3981,7 @@ fieldset:disabled .btn {
   padding-bottom: var(--bs-navbar-brand-padding-y);
   margin-right: var(--bs-navbar-brand-margin-end);
   font-size: var(--bs-navbar-brand-font-size);
-  color: var(--bs-navbar-brand-color);
+  color: gold;
   text-decoration: none;
   white-space: nowrap;
 }
@@ -11433,11 +11433,9 @@ body {
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
+  color: gold;
 }
+
 .masthead h2,
 .masthead .h2 {
   max-width: 20rem;
