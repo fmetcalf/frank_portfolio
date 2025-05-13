@@ -1,34 +1,29 @@
-# 💼 salary_prediction_front_end
+# 🌐 frank_portfolio
 
-## 🎯 Salary Prediction Survey App
+## 🖥️ Personal Portfolio Website
 
-### 📌 Description
+### 📋 Summary
 
-This project is an interactive **salary prediction tool** that uses a trained machine learning model to estimate a user's expected salary based on survey inputs. Users are prompted to enter various professional and demographic details such as:
+Welcome to the GitHub repository for my **Digital Product Management portfolio website**. This site is a snapshot of who I am, what I’ve done, and where I’m headed. It's built using HTML and CSS, and hosted at [frankmetcalf.me](https://frankmetcalf.me).
 
-- 🎂 Age  
-- ⚧️ Gender  
-- 🌍 Country  
-- 🎓 Education Level  
-- 🖥️ Years of Coding Experience  
-- 🧑‍💼 Job Role  
-- 🏢 Company Size  
+The site includes:
 
-Once submitted, the app provides a **predicted average salary** based on similar profiles in the dataset.
+- 🙋 About Me section  
+- 📚 My current class schedule  
+- 💼 Work and internship history  
+- 🔗 Contact links (LinkedIn, GitHub, Resume)  
+- 🖼️ Images of myself, the University of Iowa, BMO Tower (Chicago), and the Tippie College of Business
 
 ---
 
-## 🛠️ How to Use
+## 🚀 How to Use
 
-1. 📝 All code is located in the `index.html` file.
-2. 🌐 The frontend connects to a separate API repository:  
-   [`salary_prediction_api_real`](https://github.com/your-username/salary_prediction_api_real) – which runs the ML model.
-3. 🔗 You can:
-   - Open the `index.html` file locally, **or**
-   - Use the **Azure-hosted version** linked in the HTML.
-4. ✅ Fill out every field in the survey form.
-5. 💰 Your predicted salary will appear at the top once submitted!
+1. 📄 Open the `index.html` file to view the full webpage.
+2. 🎨 The `style.css` file includes all custom styling and layout design.
+3. 🌍 Or, visit the live website at 👉 **[frankmetcalf.me](https://frankmetcalf.me)** to explore the portfolio in your browser.
 
 ---
+
+
 
 
