@@ -1,13 +1,35 @@
-# frank_portfolio
+# 💼 salary_prediction_front_end
 
-## Portfolio for Digtal Product Management
+## 🎯 Salary Prediction Survey App
 
-### Summary
+### 📌 Description
 
-This GitHub creates my WebPage of some summary information about me. Included in this website is an about me section, my current class schedule, my past jobs, and ways to contact me including LinkedIn, GitHub, and Resume. This website also contains a picture of me, the University of Iowa, BMO Tower in Chicago and Tippie the College of Business.
+This project is an interactive **salary prediction tool** that uses a trained machine learning model to estimate a user's expected salary based on survey inputs. Users are prompted to enter various professional and demographic details such as:
 
-#### How to Use
+- 🎂 Age  
+- ⚧️ Gender  
+- 🌍 Country  
+- 🎓 Education Level  
+- 🖥️ Years of Coding Experience  
+- 🧑‍💼 Job Role  
+- 🏢 Company Size  
 
-1. The index file contains the meat of my website and all the html code
-2. The CSS file contains all my bootstrapping and styling
-3. Click either on the index file or go to frankmetcalf.me to see the final results
+Once submitted, the app provides a **predicted average salary** based on similar profiles in the dataset.
+
+---
+
+## 🛠️ How to Use
+
+1. 📝 All code is located in the `index.html` file.
+2. 🌐 The frontend connects to a separate API repository:  
+   [`salary_prediction_api_real`](https://github.com/your-username/salary_prediction_api_real) – which runs the ML model.
+3. 🔗 You can:
+   - Open the `index.html` file locally, **or**
+   - Use the **Azure-hosted version** linked in the HTML.
+4. ✅ Fill out every field in the survey form.
+5. 💰 Your predicted salary will appear at the top once submitted!
+
+---
+
+## 📁 Project Structure
+
