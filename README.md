@@ -31,5 +31,4 @@ Once submitted, the app provides a **predicted average salary** based on similar
 
 ---
 
-## 📁 Project Structure
 
